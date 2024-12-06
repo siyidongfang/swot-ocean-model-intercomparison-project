@@ -1,2 +1,14 @@
-# swot-ocean-model-intercomparison-project
-Entry point for the joint effort for leveraging SWOT ocean data for assessing ocean circulation models.  
+# SWOT Ocean Model Intercomparison Project
+Entry point for the collaborative effort for assessing ocean circulation models with SWOT data.  
+
+## Science objective
+...
+
+## How this works
+...
+
+## How to contribute 
+...
+
+## Licence
+...
