@@ -3,9 +3,9 @@ This repository is the entry point  for a  collaborative project aiming at ass
 
 ## Science objective
 We propose a model intercomparison project to:
-* Describe the seasonal variability of the mesoscale contained kinetic energy (KE) over the global ocean from the SWOT altimeter dataset and numerical ocean models.
-* Evaluate the performance of the numerical ocean model with respect to SWOT.
-* Understand the main mechanisms driving the variability of mesoscale ocean dynamics.
+* Describe the seasonal variability of the mesoscale kinetic energy (KE) over the global ocean from SWOT altimeter.
+* Evaluate the performance of a variety of numerical ocean models in capturing this variability.
+* Better understand the main mechanisms driving the space and time variability of mesoscale ocean dynamics.
 
 ## Motivation
 Mesoscale ocean dynamics are driven by mesoscale eddies, which are characterized by spatial and temporal scales around O(100 km) and O(10-100 days), respectively. Previous studies have shown that 80% of KE is concentrated at this scale (e.g., Chelton et al., 2011; Ferrari & Wunsch, 2009; Morrow & Le Traon, 2012; Wunsch, 2002, 2009; Klein et al., 2019). These structures play an important role in ocean circulation, air-sea interactions, global tracer transport and climate (e.g., Chelton et al., 2011; Morrow & Le Traon, 2012, Seo et al., 2023, McGillicuddy et al., 2008).
