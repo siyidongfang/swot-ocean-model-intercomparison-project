@@ -2,8 +2,8 @@
 
 <img align="left" src="./img/swot-omip-logo.png" width="200"> 
 
-|:---:|:---:|
-|<img align="left" src="./img/swot-omip-logo.png" width="200"> |-|
+
+|<img  src="./img/swot-omip-logo.png" width="200"> | - |
 
 This repository is the entry point  for a  collaborative project aiming at assessing the representation of ocean mesoscale variability in ocean models using SWOT altimeter data.
 
