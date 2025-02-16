@@ -1,7 +1,6 @@
 # SWOT Ocean Model Intercomparison Project
 
-![](./img/swot-omip-logo.png | width=100)
-<img src="./img/swot-omip-logo.png" width="48">
+<img src="./img/swot-omip-logo.png" width="200">
 
 This repository is the entry point  for a  collaborative project aiming at assessing the representation of ocean mesoscale variability in ocean models using SWOT altimeter data.
 
