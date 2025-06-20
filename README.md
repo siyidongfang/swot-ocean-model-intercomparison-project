@@ -20,7 +20,7 @@ Mesoscale ocean dynamics ( O(100 km) and O(10-100 days))  play an important role
 The aim of this project is to analyze the KE spectrum using SWOT SSH and several ocean simulations to describe the spatial and seasonal variability.
 
 ## How this works
-Interest research groups are invited to provide ocean model data following our data request.  
+Interested research groups are invited to provide ocean model data following our data request.  
 
 Our group at IGE (Grenoble, France) will lead the analysis and share the results. All the communications will be orchestrated openly through  GitHub. The end result of this effort will be a collective paper involving all contributors.
 
