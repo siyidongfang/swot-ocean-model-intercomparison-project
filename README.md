@@ -31,7 +31,8 @@ If you are interested, please follow these steps:
 5. Complete the information requested in the metadata (link)
 6. Submit your dataset(s) following this instructions (link)
 
-## Authors
+## Organizers
 Micael Aguedjou, Amine Ouhechou, Julien Le Sommer, Marcela Contreras
+
 ## Licence
 CC-BY
