@@ -9,4 +9,5 @@ Here, we explain how to prepare your dataset for this project.
     - **IMPORTANT: If you contribute with more than 1 year, please prepared one dataset for each year**
     
 
-2. Interpolate your simulation outputs into SWOT grid, using synthocean tool (see the Github repo X)
+2. Interpolate your simulation outputs into SWOT grid, using [Synthocean](https://github.com/Amine-ouhechou/synthocean)
+3. Store interpolation outputs in S3 point
