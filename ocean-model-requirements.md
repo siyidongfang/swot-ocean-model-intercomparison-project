@@ -1,6 +1,6 @@
 # Ocean model requirements
 
-To participate in this project, we are requesting the following conditions for the simulations
+To participate in this project, we are requesting the following conditions for the simulations:
 
 + A minimum domain dimension of 10°x10° is required.
 + A minimum temporal dimension of 1-year is required.
