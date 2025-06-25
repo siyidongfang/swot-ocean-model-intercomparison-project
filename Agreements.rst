@@ -12,5 +12,5 @@ By contributing to this project, contributors agree to:
 The organizers are committed to:
 
 + Be open to suggestions, comments and ideas from contributors.
-+ Request explicit permission in scientific presentations.
-+ Provide co-authorship in a scientific publication that involves the use of the data provided by the contributors.
++ Request explicit permission from contributors to use their data in scientific presentations.
++ Provide co-authorship in scientific publication that involves the use of the data provided by the contributors.
