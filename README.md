@@ -1,7 +1,6 @@
 
 <img align="left" src="./img/swot-omip-logo.png" width="150"> 
 
-**In preparation**
 
 # SWOT Ocean Model Intercomparison Project
 
