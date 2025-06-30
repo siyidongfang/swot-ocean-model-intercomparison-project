@@ -1,4 +1,4 @@
-Metadata instruction
+Submission instruction
 -----------------
 The steps for submitting the required metadata are described below. An example of a metadata file is available [here](https://github.com/meom-group/swot-ocean-model-intercomparison-project/tree/main/Dataset_example_eORCA)
 
