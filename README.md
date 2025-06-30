@@ -30,8 +30,9 @@ If you are interested, please follow these steps:
 2. Verify that your simulations meet the [requirements](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/ocean-model-requirements.md)
 3. Raise a github [issue](https://github.com/meom-group/swot-ocean-model-intercomparison-project/issues/new/choose) for letting us know that you are interested.
 4. Preparing your data following these instructions [instructions](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/processing-instructions.md).
-5. Complete the information requested in the  [metadata](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/metadata-instructions.md).
-6. Submit your dataset(s) following this instructions (link).
+5. Prepare one metadata file for each dataset you would like to submit (following this [template yaml file](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_template/metadata_template.yaml)
+6. Submit your dataset(s) following these instructions
+ [metadata](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/metadata-instructions.md).
 
 ## Organizers
 Micael Aguedjou, Amine Ouhechou, Julien Le Sommer, Marcela Contreras
