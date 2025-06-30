@@ -28,7 +28,7 @@ Our group at IGE (Grenoble, France) will lead the analysis and share the results
 If you are interested, please follow these steps:
 1. Check the [Terms and conditions of the agreements](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Agreements.rst).
 2. Verify that your simulations meet the [requirements](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/ocean-model-requirements.md)
-3. Raise a github issue for letting us know that you are interested.
+3. Raise a github [issue](https://github.com/meom-group/swot-ocean-model-intercomparison-project/issues/new/choose) for letting us know that you are interested.
 4. Preparing your data following these instructions [instructions](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/processing-instructions.md).
 5. Complete the information requested in the  [metadata](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/metadata-instructions.md).
 6. Submit your dataset(s) following this instructions (link).
