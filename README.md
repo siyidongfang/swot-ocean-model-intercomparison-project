@@ -33,6 +33,12 @@ If you are interested, please follow these steps:
 6. Submit your dataset(s) following these 
  [instructions](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/submission-instructions.md).
 
+> [!IMPORTANT]  
+> The deadline for the first round of contributions is **September 15, 2025**.
+
+## Contact
+Questions, comments, or suggestions should be submitted by opening a [new issue](https://github.com/meom-group/swot-ocean-model-intercomparison-project/issues).
+
 ## Organizers
 Micael Aguedjou, Amine Ouhechou, Julien Le Sommer, Marcela Contreras
 
