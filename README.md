@@ -28,7 +28,7 @@ If you are interested, please follow these steps:
 1. Check the [Terms and conditions of the agreements](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Agreements.rst).
 2. Verify that your simulations meet the [requirements](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/ocean-model-requirements.md)
 3. Raise a github [issue](https://github.com/meom-group/swot-ocean-model-intercomparison-project/issues/new/choose) for letting us know that you are interested.
-4. Preparing your data following these instructions [instructions](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/processing-instructions.md).
+4. Preparing your data following these [instructions](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/processing-instructions.md).
 5. Prepare one metadata file for each dataset you would like to submit (following this [template yaml file](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_template/metadata_template.yaml))
 6. Submit your dataset(s) following these 
  [instructions](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/submission-instructions.md).
