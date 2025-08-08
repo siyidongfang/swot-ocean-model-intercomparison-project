@@ -38,7 +38,8 @@ If you are interested, please follow these steps:
 
 ## Contact
 Questions, comments, or suggestions should be submitted by opening a [new issue](https://github.com/meom-group/swot-ocean-model-intercomparison-project/issues).
-
+> [!NOTE]  
+> Due to vacation periods, our responses will be slow, but we will be back on August 25.
 ## Organizers
 Micael Aguedjou, Amine Ouhechou, Julien Le Sommer, Marcela Contreras
 
