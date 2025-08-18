@@ -1,0 +1,59 @@
+## THIS IS AN METADATA TEMPLATE (Please fill the X)
+NOC_eORCA12_ERA5v1: # MODEL NAMES
+      ##  Information on the provider institution
+      data_provider:
+        institution_name: "UK National Oceanography Centre"
+        contact_email: "oliver.tooth@noc.ac.uk"
+      ## Information about the model simulation 
+      model_information:
+        simulation_name: "NPD eORCA025 ERA-5 version 1"
+        simulation_codebase: "NEMO"
+        codebase_version: "4.2.2"
+      ## Information about the model dataset 
+      model_dataset:
+        output_frequency: "24" #  in h
+        type_of_average : "24" #  ‘None’ or averaging frequency in h
+        model_year: "2024" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
+        base_s3_folder: "s3://npd-eorca12-era5v1-swot-omip/" # Access S3 point
+        endpoint_url: "https://noc-msm-o.s3-ext.jc.rl.ac.uk"
+      ## Model grid 
+      model_grid:
+        global: "True" # Boolean: True or False
+        grid_points: "1440 x 1205"  # string “Nx x Ny”
+        minimum_horizontal_gridsize: "12" ## in km
+        maximum_horizontal_gridsize: "25" ## in km
+        number_of_vertical_levels: "75"
+        minimum_vertical_gridsize: "1" ## in m
+        maximum_vertical_gridsize: "200" ## in m           
+        arakawa_grid_type: "C" # if relevant
+        vertical_coordinate: "Z*" ## “sigma” or “pressure” or “isopycnal” or “hybrid”
+        bathymetry : "ETOPO1 dataset (Amante and Eakins, 2009), GEBCO (IOC et al., 2003), IBSCO (Arndt et al., 2013)" ## Reference of the dataset used for defining model bathymetry
+        nested_model : "False"  # Boolean## Detail on the model experiment
+      ## Detail on the model experiment    
+      model_experiment:
+        initial_condition: "WOA23_decav71A0" # Database used for initialization  
+        date_initialization: "01/1976" # in order to know how far we are from spin-up
+        atmospheric_forcing_dataset : "ERA-5 (surface air temperature corrected)" # ”None” or reference of the forcing dataset
+        atmospheric_forcing_frequency : "1" # Frequency of forcing dataset
+        atmospheric_model : "None" # None or name of the atm. model codebase
+        atmopheric_pressure_forcing: "False" # Boolean
+        wave_model : "None" # None or name fo the wave model codebase
+        sea_ice_model : "SI3" # None or name of the sea ice model codebase        
+        lateral_boundary_condition : "None" # None or reference of the forcing dataset
+        lateral_boundary_condition_frequency : "None" # None or frequency of forcing dataset
+        river_runoff_dataset:  "Bourdallé-Badie, R. and Treguier, A.2006 climatolog; Rignot et al., 2013 ice shelf melt climatology" # None or reference to the database
+        tidal_constituents: "None" # “None” or list of constituents        
+      ## Detail on model schemes and parameters   
+      model_parameters:
+        bulk_formulae: "ECMWF"  # reference to the version of the bulk formulae
+        wind_stress_formulation: "None"
+        horizontal_momentum_advection_scheme: "FCT 4th order"
+        horizontal_tracer_advection_scheme: "TVD"
+        vertical_momentum_advection_scheme: "FCT 4th order"
+        vertical_tracer_advection_scheme: "TVD"
+        horizontal_momentum_dissipation: "-1.5 x 10^11 m4 s^-1" # background value, the unit informs on the type of dissipation
+        horizontal_tracer_dissipation: "150 m^2 s^-1" # background value, the unit informs on the type of dissipation
+        vertical_mixing_parameterization: "TKE"
+        equation_state: "TEOS-10"
+        bottom_drag: "nonlinear"
+        bottom_drag_coeff: "1.e-3, regional boost factor 50"
