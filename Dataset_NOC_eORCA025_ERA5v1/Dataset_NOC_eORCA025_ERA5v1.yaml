@@ -41,7 +41,7 @@ NOC_eORCA12_ERA5v1: # MODEL NAMES
         sea_ice_model : "SI3" # None or name of the sea ice model codebase        
         lateral_boundary_condition : "None" # None or reference of the forcing dataset
         lateral_boundary_condition_frequency : "None" # None or frequency of forcing dataset
-        river_runoff_dataset:  "Bourdallé-Badie, R. and Treguier, A.2006 climatolog; Rignot et al., 2013 ice shelf melt climatology" # None or reference to the database
+        river_runoff_dataset:  "Bourdallé-Badie, R. and Treguier, A.2006 climatology; Rignot et al., 2013 ice shelf melt climatology" # None or reference to the database
         tidal_constituents: "None" # “None” or list of constituents        
       ## Detail on model schemes and parameters   
       model_parameters:

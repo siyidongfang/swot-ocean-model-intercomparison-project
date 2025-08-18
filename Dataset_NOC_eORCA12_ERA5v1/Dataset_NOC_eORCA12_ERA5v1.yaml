@@ -8,11 +8,11 @@ NOC_eORCA12_ERA5v1: # MODEL NAMES
       model_information:
         simulation_name: "NPD eORCA12 ERA-5 version 1"
         simulation_codebase: "NEMO"
-        codebase_version: "4.2"
+        codebase_version: "4.2.2"
       ## Information about the model dataset 
       model_dataset:
         output_frequency: "24" #  in h
-        type_of_average : "averaging" #  ‘None’ or averaging frequency in h
+        type_of_average : "24" #  ‘None’ or averaging frequency in h
         model_year: "2024" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
         base_s3_folder: "s3://npd-eorca12-era5v1-swot-omip/" # Access S3 point
         endpoint_url: "https://noc-msm-o.s3-ext.jc.rl.ac.uk"
