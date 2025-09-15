@@ -14,7 +14,7 @@ eNATL60: # MODEL NAMES
         output_frequency: "1h" #  in h
         type_of_average : "1h" #  ‘None’ or averaging frequency in h
         model_year: "2009" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
-        base_s3_folder: "oidc-alberta/eNATL60-SWOT-comp" # Access S3 point
+        base_s3_folder: "oidc-alberta/eNATL60-SWOT-comp/eNATL60-BLBT02-y2009m07-09_SWOT_interp_scipy.nc" # Access S3 point
         endpoint_url: "https://minio.dive.edito.eu"
       ## Model grid 
       model_grid:
