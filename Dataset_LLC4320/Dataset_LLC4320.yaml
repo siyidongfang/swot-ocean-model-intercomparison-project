@@ -3,7 +3,7 @@ LLC4320: # MODEL NAMES
       ##  Information on the provider institution
       data_provider:
         institution_name: "MIT"
-        contact_email: "y_si@mit.edu"  ###### The data we have comes from simulations run by others. 
+        contact_email: ""  ###### The data we have comes from simulations run by others. 
       ## Information about the model simulation 
       model_information:
         simulation_name: "LLC4320 Global Ocean Simulation"
@@ -53,18 +53,18 @@ LLC4320: # MODEL NAMES
         tidal_constituents: "16 most significant tidal components" # “None” or list of constituents        
       ## Detail on model schemes and parameters   
       model_parameters:
-        bulk_formulae: "Fairall et al. (1996)"  ###### Unsure # reference to the version of the bulk formulae
+        bulk_formulae: "Large and Yeager (2004)" # reference to the version of the bulk formulae
         wind_stress_formulation: "surface‐relative wind drag"  #
-        horizontal_momentum_advection_scheme: "Centered 4th order"  ###### Unsure
-        horizontal_tracer_advection_scheme: "Flux limiter"  ###### Unsure 
+        horizontal_momentum_advection_scheme: "Flux-limited monotonicity-preserving (seventh order) advection scheme" 
+        horizontal_tracer_advection_scheme: "Flux-limited monotonicity-preserving (seventh order) advection scheme" 
         vertical_momentum_advection_scheme: "Centered 2nd order"  ###### Unsure 
-        vertical_tracer_advection_scheme: "Centered 2nd order"  ###### Unsure 
-        horizontal_momentum_dissipation: " 1e-4 m2/s"  ###### Unsure # background value, the unit informs on the type of dissipation
-        horizontal_tracer_dissipation: " 1e-5 m2/s"   ###### Unsure # background value, the unit informs on the type of dissipation
+        vertical_tracer_advection_scheme: "Centered 2nd order"    ###### Unsure 
+        horizontal_momentum_dissipation: "0"  ###### Unsure # background value, the unit informs on the type of dissipation
+        horizontal_tracer_dissipation: "0"   # background value, the unit informs on the type of dissipation
         vertical_mixing_parameterization: "KPP (Large et al., 1994)"
         equation_state: "Jackett and McDougall (1995)"  
         bottom_drag: "Quadratic drag"
-        bottom_drag_coeff: "2.5e-3"
+        bottom_drag_coeff: "2.1e-3"
 Footer
 © 2025 GitHub, Inc.
 Footer navigation
