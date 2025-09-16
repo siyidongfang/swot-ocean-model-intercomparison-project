@@ -17,7 +17,7 @@ LLC4320: # MODEL NAMES
         ##### The model data spans from 2011-09-13 00:00 to 2012-09-12 23:59.  
         ##### Data from Sept 13 to Dec 31 is attributed to Year 2011; data from Jan 1 to Sept 12 is attributed to Year 2012.
         ##### If it is required to split this 1-year model simulation into two calendar years, please email Yidongfang Si at y_si@mit.edu or ysi@g.ucla.edu
-        model_year: "2012" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
+        model_year: "2011 to 2012" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
         base_s3_folder: "s3://llc4320-swot-data" # Access S3 point
         endpoint_url: "https://llc4320-swot-data.s3.us-east-1.amazonaws.com"
       ## Model grid 
