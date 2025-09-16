@@ -37,9 +37,9 @@ LLC4320: # MODEL NAMES
       model_experiment:
         initial_condition: "ECCO v4 Global Ocean State Estimate" # Database used for initialization 
         ##### NOTE:
-        ##### llc4320 started September 10, 2011 from llc2160 simulation
-        ##### llc2160 started January 14, 2011 from llc1080 simulation
         ##### llc1080 started January 1, 2010 from 2009-2011 3-year CS510 adjoint-method estimate
+        ##### llc2160 started January 14, 2011 from llc1080 simulation
+        ##### llc4320 started September 10, 2011 from llc2160 simulation
         date_initialization: "2011-09-10" # in order to know how far we are from spin-up
         atmospheric_forcing_dataset : "ECMWF operational analysis (0.14°)" # ”None” or reference of the forcing dataset
         atmospheric_forcing_frequency : "6" # Frequency of forcing dataset
