@@ -2,8 +2,8 @@
 LLC4320: # MODEL NAMES
       ##  Information on the provider institution
       data_provider:
-        institution_name: "MIT/GFDL"
-        contact_email: ""
+        institution_name: "MIT"
+        contact_email: "y_si@mit.edu"  ###### The data we have comes from simulations run by others. 
       ## Information about the model simulation 
       model_information:
         simulation_name: "LLC4320 Global Ocean Simulation"
@@ -15,6 +15,7 @@ LLC4320: # MODEL NAMES
         type_of_average : "None" #  ‘None’ or averaging frequency in h
         ##### IMPORTANT NOTE: The model data spans from 2011-09-13 00:00 to 2012-09-12 23:59.  
         ##### Data from Sept 13 to Dec 31 is attributed to Year 2011; data from Jan 1 to Sept 12 is attributed to Year 2012.
+        ##### If it is required to split this 1-year model simulation into two calendar years, please email Yidongfang Si at y_si@mit.edu or ysi@g.ucla.edu
         model_year: "2012" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
         base_s3_folder: "s3://llc4320-swot-data" # Access S3 point
         endpoint_url: "https://llc4320-swot-data.s3.us-east-1.amazonaws.com"
@@ -23,7 +24,7 @@ LLC4320: # MODEL NAMES
         global: "True" # Boolean: True or False
         grid_points: "13 x 4320 x 4320"  # string “Face x Nx x Ny”
         minimum_horizontal_gridsize: "0.75" ## in km
-        maximum_horizontal_gridsize: "2.2" ## in km
+        maximum_horizontal_gridsize: "2.3" ## in km
         number_of_vertical_levels: "90"
         minimum_vertical_gridsize: "1" ## in m
         maximum_vertical_gridsize: "500" ## in m           
@@ -33,8 +34,11 @@ LLC4320: # MODEL NAMES
         nested_model : "False"  # Boolean## Detail on the model experiment
       ## Detail on the model experiment    
       model_experiment:
-        initial_condition: "ECCO v4 Global Ocean State Estimate" # Database used for initialization  
-        date_initialization: "2010-01-01" # in order to know how far we are from spin-up
+        initial_condition: "ECCO v4 Global Ocean State Estimate" # Database used for initialization 
+        ##### llc4320 started September 10, 2011 from llc2160 simulation
+        ##### llc2160 started January 14, 2011 from llc1080 simulation
+        ##### llc1080 started January 1, 2010 from 2009-2011 3-year CS510 adjoint-method estimate
+        date_initialization: "2011-09-10" # in order to know how far we are from spin-up
         atmospheric_forcing_dataset : "ECMWF operational analysis (0.14°)" # ”None” or reference of the forcing dataset
         atmospheric_forcing_frequency : "6" # Frequency of forcing dataset
         atmospheric_model : "None" # None or name of the atm. model codebase
