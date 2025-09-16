@@ -8,12 +8,13 @@ LLC4320: # MODEL NAMES
       model_information:
         simulation_name: "LLC4320 Global Ocean Simulation"
         simulation_codebase: "MITgcm"
-        codebase_version: "4.2"
+        codebase_version: "" ###### Unsure
       ## Information about the model dataset 
       model_dataset:
         output_frequency: "1" #  in h
         type_of_average : "None" #  ‘None’ or averaging frequency in h
-        ##### IMPORTANT NOTE: The model data spans from 2011-09-13 00:00 to 2012-09-12 23:59.  
+        ##### IMPORTANT NOTE: 
+        ##### The model data spans from 2011-09-13 00:00 to 2012-09-12 23:59.  
         ##### Data from Sept 13 to Dec 31 is attributed to Year 2011; data from Jan 1 to Sept 12 is attributed to Year 2012.
         ##### If it is required to split this 1-year model simulation into two calendar years, please email Yidongfang Si at y_si@mit.edu or ysi@g.ucla.edu
         model_year: "2012" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
@@ -35,6 +36,7 @@ LLC4320: # MODEL NAMES
       ## Detail on the model experiment    
       model_experiment:
         initial_condition: "ECCO v4 Global Ocean State Estimate" # Database used for initialization 
+        ##### NOTE:
         ##### llc4320 started September 10, 2011 from llc2160 simulation
         ##### llc2160 started January 14, 2011 from llc1080 simulation
         ##### llc1080 started January 1, 2010 from 2009-2011 3-year CS510 adjoint-method estimate
@@ -51,16 +53,16 @@ LLC4320: # MODEL NAMES
         tidal_constituents: "16 most significant tidal components" # “None” or list of constituents        
       ## Detail on model schemes and parameters   
       model_parameters:
-        bulk_formulae: "Fairall et al. (1996)"  # reference to the version of the bulk formulae
+        bulk_formulae: "Fairall et al. (1996)"  ###### Unsure # reference to the version of the bulk formulae
         wind_stress_formulation: "surface‐relative wind drag"  #
-        horizontal_momentum_advection_scheme: "Centered 4th order"  # Not sure
-        horizontal_tracer_advection_scheme: "Flux limiter"  # Not sure
-        vertical_momentum_advection_scheme: "Centered 2nd order"  # Not sure
-        vertical_tracer_advection_scheme: "Centered 2nd order"  # Not sure
-        horizontal_momentum_dissipation: " 1e-4 m2/s"  # Not sure # background value, the unit informs on the type of dissipation
-        horizontal_tracer_dissipation: " 1e-5 m2/s"   # Not sure # background value, the unit informs on the type of dissipation
+        horizontal_momentum_advection_scheme: "Centered 4th order"  ###### Unsure
+        horizontal_tracer_advection_scheme: "Flux limiter"  ###### Unsure 
+        vertical_momentum_advection_scheme: "Centered 2nd order"  ###### Unsure 
+        vertical_tracer_advection_scheme: "Centered 2nd order"  ###### Unsure 
+        horizontal_momentum_dissipation: " 1e-4 m2/s"  ###### Unsure # background value, the unit informs on the type of dissipation
+        horizontal_tracer_dissipation: " 1e-5 m2/s"   ###### Unsure # background value, the unit informs on the type of dissipation
         vertical_mixing_parameterization: "KPP (Large et al., 1994)"
-        equation_state: "Jackett and McDougall (1995)"  # Not sure
+        equation_state: "Jackett and McDougall (1995)"  
         bottom_drag: "Quadratic drag"
         bottom_drag_coeff: "2.5e-3"
 Footer
