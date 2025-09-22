@@ -5,7 +5,7 @@ This section presents the status of contributions. If there are any pending issu
 | GLO36V1             |   Yes    |  Agree       | X                     |      No       |
 | GLO12V4             |   Yes    |  Agree       | X                     |      No       |
 | NOC_eORCA025_ERA5v1 |   Yes    |  Agree       | X                     |      No       |
-| NOC_eORCA12_ERA5v1  |   Yes    |  Agree       | X                     |      No       |
+| NOC_eORCA12_ERA5v1  |   Yes    |  Agree       | Done                     |      No       |
 | LL4320              |   Yes    |  Disagree    | X                     |      Yes      |
 | eINALT100           |   No     |  Disagree    | X                     |      Yes      |
 | eNATL60             |   Yes    |  Disagree    | X                     |      Yes      |
