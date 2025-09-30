@@ -2,7 +2,7 @@ This section presents the status of contributions. If there are any pending issu
 
 | Dataset            | Metadata | Check Format* | Precompute Spectra** |Pending Issues |
 | :----------------  | :------: | :----------: | :-------------------: |:------------: |
-| GLO36V1            |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_GLO36V1)   |  Agree       | X                     |      Done       |
+| GLO36V1            |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_GLO36V1)   |  Agree       | Done                     |      No       |
 | GLO12V4            |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_GLO12V4)   |  Agree       | X                     |      No       |
 | NOC_eORCA025_ERA5v1|[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_NOC_eORCA025_ERA5v1) |  Agree       | X                     |      No       |
 | NOC_eORCA12_ERA5v1 |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_NOC_eORCA12_ERA5v1)   |  Agree       | Done                  |      No       |
