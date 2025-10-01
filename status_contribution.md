@@ -3,8 +3,8 @@ This section presents the status of contributions. If there are any pending issu
 | Dataset            | Metadata | Check Format* | Precompute Spectra** |Pending Issues |
 | :----------------  | :------: | :----------: | :-------------------: |:------------: |
 | GLO36V1            |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_GLO36V1)   |  Agree       | Done                     |      No       |
-| GLO12V4            |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_GLO12V4)   |  Agree       | X                     |      No       |
-| NOC_eORCA025_ERA5v1|[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_NOC_eORCA025_ERA5v1) |  Agree       | X                     |      No       |
+| GLO12V4            |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_GLO12V4)   |  Agree       | Done                     |      No       |
+| NOC_eORCA025_ERA5v1|[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_NOC_eORCA025_ERA5v1) |  Agree       | Done                     |      No       |
 | NOC_eORCA12_ERA5v1 |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_NOC_eORCA12_ERA5v1)   |  Agree       | Done                  |      No       |
 | LL4320             |[Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/blob/main/Dataset_LLC432)   |  Disagree    | X                     |      [Yes](https://github.com/meom-group/swot-ocean-model-intercomparison-project/issues/24)      |
 | eINALT100          |   No     |  Disagree    | X                     |      Yes      |
