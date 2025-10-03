@@ -1,0 +1,62 @@
+## THIS IS AN METADATA TEMPLATE (Please fill the X)
+HYCOM50-E037SURF: # MODEL NAMES (The base name is HYCOM)
+      ##  Information on the provider institution
+      data_provider:
+        institution_name: "Florida State University"
+        contact_email: "xxu3@fsu.edu"
+      ## Information about the model simulation 
+      model_information:
+        simulation_name: "HYCOM50"
+        simulation_codebase: "HYCOM" # NEMO, MITgcm, MOM, CROCO...
+        codebase_version: "HYCOM 2.3" # x.x
+      ## Information about the model dataset 
+      model_dataset:
+        output_frequency: "hourly" #  in h
+        type_of_average : "Daily average" #  ‘None’ or averaging frequency in h
+        model_year: "17" # Remember, just one year for metadata and dataset. If you wish to contribute more than one year, please complete this file for each year.
+        base_s3_folder: 'swotce' # Access S3 point
+        endpoint_url: "https://s3.datalake.cnes.fr"
+      ## Model grid 
+      model_grid:
+        global: "False" # Boolean: True or False
+        grid_points: "6709 x 7373" # string “Nx x Ny”
+        minimum_horizontal_gridsize: "0.190" ## in km
+        maximum_horizontal_gridsize: "2.224" ## in km
+        number_of_vertical_levels: "Hybrid (3:wq;u:w2 pressure p and isopycnal)"
+        minimum_vertical_gridsize: "3" ## in m
+        maximum_vertical_gridsize: "variable" ## in m           
+        arakawa_grid_type: "C-grid" # if relevant
+        vertical_coordinate: "Hybrid" ## “sigma” or “pressure” or “isopycnal” or “hybrid”
+        bathymetry : "Nearest 5x5 box average of the 15 s GEBCO_2019" ## Reference of the dataset used for defining model bathymetry
+        nested_model : "0"  # Boolean
+      
+      ## Detail on the model experiment
+      model_experiment:
+        initial_condition: "GDEM climatology" # Database used for initialization  
+        date_initialization: "restarted from a 15-year spin up with lower resolution bathymetry" # in order to know how far we are from spin-up
+        atmospheric_forcing_dataset : "Climatological ERA-40 and 3-hourly wind anomalies from NOGAPS" # ”None” or reference of the forcing dataset
+        atmospheric_forcing_frequency : "3-hourly" [Relative wind (RW)] # Frequency of forcing dataset
+        atmospheric_model : "None" # None or name of the atm. model codebase
+        atmopheric_pressure_forcing: "No" # Boolean
+        wave_model : "None" # None or name fo the wave model codebase
+        sea_ice_model : "Energy Loan Sea Ice Model" # None or name of the sea ice model codebase        
+        lateral_boundary_condition : "Climatology" # None or reference of the forcing dataset
+        lateral_boundary_condition_frequency : "monthly" # None or frequency of forcing dataset
+        river_runoff_dataset:  "DX" # None or reference to the database
+        tidal_constituents: "None" # “None” or list of constituents        
+      ## Detail on model schemes and parameters   
+      model_parameters:
+        bulk_formulae: "bulk formulae of Kara et al. (2005)"  # reference to the version of the bulk formulae
+        wind_stress_formulation: "Kara et al. (2005)"  #
+        horizontal_momentum_advection_scheme: "Second-order flux-corrected transport (FCT) flux form"
+        horizontal_tracer_advection_scheme:   "secondorder FCT"
+        vertical_momentum_advection_scheme: "X"
+        vertical_tracer_advection_scheme: "Laplacian diffusive velocity"
+        horizontal_momentum_dissipation: "Laplacian and biharmonic" # background value, the unit informs on the type of dissipation
+        horizontal_tracer_dissipation: "Laplacian" # background value, the unit informs on the type of dissipation
+        vertical_mixing_parameterization: "The K-profile parameterization of Large et al. (1994)"
+        equation_state: "Approximation to the UNESCO equation of state described by Brydon et al. (2001)"
+        bottom_drag: "quadratic"
+        bottom_drag_coeff: " 1e-3"
+
+ 
